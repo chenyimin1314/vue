@@ -1,0 +1,46 @@
+.p-title {
+    width: 6rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 0.3rem;
+}
+
+.p-secondTitle {
+    width: 6rem;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-size: 0.2rem;
+    color: #918c8c;
+}
+
+.p-secondTitle a {
+    color: #00a0e9;
+}
+
+.p-main {
+    width: 6rem;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.26rem;
+    color: #7c7c7c;
+}
+
+.p-main div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-main img {
+    width: 100%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.p-main .author {
+    width: 30%;
+    margin-top: 0.5rem;
+}

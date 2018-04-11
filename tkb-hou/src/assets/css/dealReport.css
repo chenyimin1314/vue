@@ -1,0 +1,106 @@
+ .mint-tab-item {
+     width: 3rem;
+     height: 100%;
+     background: #DCDCDC;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: black;
+ }
+ 
+ .mint-tab-item-label {
+     /* font-size: 16px; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ [class*=" el-icon-"] {
+     display: none;
+ }
+ 
+ .mint-navbar .mint-tab-item.is-selected {
+     border-bottom: 0;
+     color: white;
+     background: #FFB901;
+ }
+ 
+ .okReport {
+     width: 6rem;
+     border-bottom: 5px solid #EFEFEF;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     display: flex;
+     justify-content: center;
+ }
+ /* 
+  日期选择
+   */
+ 
+ .dateSelect {
+     width: 6rem;
+     clear: both;
+     padding-left: 0.3rem;
+     padding-right: 0.3rem;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     height: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+ 
+ .dateSelect span {
+     float: left;
+     height: 0.3rem;
+ }
+ 
+ .el-input__inner {
+     height: 100%;
+ }
+ 
+ .dateSelect .el-input__inner {
+     width: 1.7rem;
+     height: 100%;
+ }
+ 
+ .el-input--suffix .el-input__inner {
+     text-align: center;
+     padding: 0;
+ }
+ 
+ .el-input__prefix {
+     display: none;
+ }
+ 
+ .el-date-editor.el-input,
+ .el-date-editor.el-input__inner {
+     width: auto;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .dateLine {
+     width: 0.3rem;
+ }
+ 
+ .lookReportBtn {
+     width: 1rem;
+     height: 100%;
+     margin-left: 0.1rem;
+     background: #FFB901;
+     border-radius: 4px;
+     color: white;
+ }
+ 
+ .dateText {
+     width: 0.6rem;
+ }
+ 
+ .dateSelect .el-input {
+     padding-left: 0px;
+     padding-right: 0px;
+ }

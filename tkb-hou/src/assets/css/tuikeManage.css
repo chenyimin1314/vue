@@ -1,0 +1,89 @@
+/* 
+  推客列表BOX
+   */
+
+.listBox {
+    padding: 60px 0;
+}
+
+.wechatBox {
+    font-size: 12px;
+}
+
+.mint-field .mint-cell-value {
+    border: 1px solid #EBEBEB;
+}
+
+
+/* 
+  推客列表
+   */
+
+.el-table {
+    font-size: 12px;
+}
+
+.el-table td {
+    padding-top: 0.03rem;
+    padding-bottom: 0.03rem;
+    text-align: center;
+}
+
+.el-table th {
+    padding-top: 0.08rem;
+    padding-bottom: 0.08rem;
+    text-align: center;
+}
+
+.activityTime .block .el-input {
+    float: left;
+    font-size: 0.23rem;
+}
+
+.activityTime .el-input__inner {
+    border: 0;
+}
+
+.pt-activityTime .el-input__inner {
+    border: 0;
+}
+
+input.el-input__inner {
+    width: 100%;
+}
+
+
+/* 
+  邀请推客佣金
+   */
+
+.mint-switch-core {
+    width: 48px;
+    height: 20px;
+}
+
+.mint-switch-core::after,
+.mint-switch-core::before {
+    width: 26px;
+    height: 18px;
+}
+
+.mint-switch-input:checked+.mint-switch-core {
+    border-color: #FFB901;
+    background-color: #FFB901;
+}
+
+
+/* 
+  生成群组页
+   */
+
+.el-input {
+    padding-right: 0.2rem;
+    padding-right: 0;
+}
+
+.el-form-item__label {
+    text-align: left;
+    padding-left: 0.2rem;
+}

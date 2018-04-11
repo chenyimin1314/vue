@@ -1,0 +1,26 @@
+.topBox {
+    width: 6rem;
+    height: 60px;
+    background: #ffb901;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.topBox p {
+    font-size: 14px;
+    color: white;
+}
+
+.topBox .title {
+    font-size: 18px;
+}
+
+a {
+    color: white;
+}

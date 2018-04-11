@@ -1,0 +1,91 @@
+.bigBox {
+    width: 6rem;
+    /* height: 3.2rem; */
+    border-bottom: 1px solid #eeeeee;
+    padding: 0.2rem;
+}
+
+.extend-top {
+    width: 100%;
+    height: 1.6rem;
+}
+
+.e-t-left {
+    width: 1.6rem;
+    height: 1.6rem;
+    float: left;
+}
+
+.e-t-right {
+    float: left;
+    width: 3.8rem;
+    font-size: 0.25rem;
+    padding-left: 10px;
+}
+
+.extend-bottom {
+    width: 100%;
+    height: 80px;
+    margin-top: 0.2rem;
+}
+
+.e-b-left {
+    float: left;
+    width: 3.6rem;
+    height: 100%;
+}
+
+.e-b-right {
+    float: left;
+    width: 2rem;
+    height: 100%;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.e-b-right div {
+    float: left;
+    border-radius: 5px;
+    background: #ffb901;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: auto;
+    color: white;
+    margin-left: 5px;
+    font-size: 0.2rem;
+    width: 0.8rem;
+    text-align: center;
+}
+
+.dialogleft {
+    float: left;
+    width: 90%;
+    height: 100%;
+    background: url(../images/dialogleft.png) no-repeat;
+    background-size: 100% 100%;
+    color: #afacac;
+    font-size: 12px;
+    padding: 0.1rem;
+}
+
+.dialogleft span {
+    color: red;
+}
+
+.dialogright {
+    float: left;
+    width: 10%;
+    height: 100%;
+    background: url(../images/dialogright.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.el-radio .el-radio__label {
+    padding-left: 5px;
+}
+
+.teRadio .el-radio {
+    padding: 0;
+    margin: auto;
+}

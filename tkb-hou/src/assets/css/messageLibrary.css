@@ -1,0 +1,129 @@
+.tuiwenBox {
+    width: 6rem;
+}
+
+.tuiwenTop {
+    width: 6rem;
+    padding: 0.1rem 0.2rem;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.tuiwenImg {
+    float: left;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.tuiwenDescribe {
+    float: right;
+    width: 3.7rem;
+}
+
+.desTitle {
+    width: 3.7rem;
+    height: 0.5rem;
+    font-size: 0.25rem;
+}
+
+.desTitle span {
+    border-bottom: 1px solid black;
+}
+
+.desMain {
+    width: 3.7rem;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.desMain span {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #989898;
+}
+
+.desShare,
+.desBtn,
+.desRead {
+    width: 3.7rem;
+    height: 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.desBtn span {
+    background: #FFB901;
+    color: white;
+    padding: 0.05rem 0.35rem;
+    border-radius: 5px;
+}
+
+.tuiwenBottom {
+    width: 6rem;
+    border-bottom: 8px solid #E5E5E5;
+    height: 0.8rem;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.tuiwenBottom span {
+    height: 80%;
+    float: left;
+}
+
+.tuiwenBottom img {
+    margin-left: 15px;
+    margin-right: 5px;
+    width: 0.3rem;
+}
+
+.desShare span {
+    background: #FFB901;
+    color: white;
+    padding: 0.05rem 0.35rem;
+    border-radius: 5px;
+}
+
+.desRead span {
+    background: #FFB901;
+    color: white;
+    padding: 0.05rem 0;
+    border-radius: 5px;
+    color: #B1B1B1;
+}
+
+.desRead .readNum {
+    margin-right: 0.5rem;
+    background: white;
+}
+
+.desRead .readNum span {
+    background: white;
+}
+
+.desRead .shareNum {
+    padding: 0.05rem 0.35rem;
+    color: white;
+    /* background: #B1B1B1; */
+}
+
+.p-des {
+    color: #B1B1B1;
+}
+
+.db-time {
+    padding-left: 0.2rem;
+    padding-right: 0.5rem;
+}
+
+.desRead .clickReport {
+    width: 6rem;
+}
+
+.desTitle a {
+    color: black;
+}
