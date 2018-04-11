@@ -1,0 +1,116 @@
+.goods-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-items: center;
+  background: #fff6f9;
+  flex-wrap: wrap;
+  z-index: -1;
+  .goods-item{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    .goods-info{
+      width: 92px;
+      height: 123px;
+      margin: 3px 0;
+      display: flex;
+      padding: 3px 2px;
+      border:1px solid #E6E6E6;
+      justify-content: center;
+      box-sizing: border-box;
+      align-items: center;
+      flex-wrap: wrap;
+      background: #fff;
+      font-size: 10px;
+      box-shadow: 2px 2px 2px #FAF1F4;
+      position: relative;
+      .cell-number{
+        color: #6D6C6C;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 16px;
+        height: 16px;
+        z-index: 15;
+        text-align: center;
+        background: #ECEBEB;
+      }
+      .goods-price{
+        width: 100%;
+        div{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          align-content: center;
+          width: 100%;
+          font-size: 14px;
+          .old-price{
+            color: #5C5959;
+            text-decoration: line-through;
+            transform: scale(.8)
+          }
+          .new-price{
+            font-weight: bold;
+            color: #F84481;
+          }
+        }
+
+      }
+      .goods-img{
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+      }
+      .goods-title{
+        width: 100%;
+        text-align: center;
+      }
+      .buy-button{
+        color: #fff;
+        background: linear-gradient(to right,#FB6D9B, #FF6096,#FB7BAE,#FC80B6);
+        width: 65%;
+        height: 10px;
+        line-height: 10px;
+        padding: 3px 0;
+        text-align: center;
+        transition: .2s;
+        border-radius: 25px;
+      }
+      .buy-button:hover{
+       opacity: .8;
+      }
+      .null-cell{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left:0;
+        bottom: 0;
+        opacity: .7;
+        z-index: 10;
+        background: #6D6C6C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        span{
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          color: #fff;
+          background: #433F41;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  @media screen and (max-width:320px){
+    .goods-items{
+      width: 33.33%;
+    }
+  }
+}

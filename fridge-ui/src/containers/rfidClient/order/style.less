@@ -1,0 +1,88 @@
+.order-wrapper{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  position: relative;
+  .order{
+    .order-icon{
+      text-align: center;
+      margin-bottom: 10px;
+      i{
+        font-size: 65px;
+        color: #4de667;
+      }
+    }
+    p{
+      padding: 3px 5px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .order-opreat{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      span{
+        display: block;
+        width: 80px;
+        height: 28px;
+        padding: 3px ;
+        border:1px solid #eee;
+        margin: 0 10px;
+        text-align: center;
+        line-height: 30px;
+        a{
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+        }
+
+      }
+      span:nth-child(2){
+        background: #F8CD23;
+
+      }
+    }
+  }
+  .order-price{
+    margin: 20px 0;
+  }
+  .order-cell{
+    margin-top: 25px;
+  }
+  .share{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    .share-shade{
+      width: 100%;
+      height: 100%;
+      opacity: .5;
+      background: #403F3F;
+
+    }
+    .share-icon{
+      position: absolute;
+      top: 15px;
+      right:115px;
+      span{
+        display: inline-block;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        line-height: 110px;
+        text-align: center;
+        left: 0;
+        color: #fff;
+      }
+      span:nth-child(1){
+        transform: rotate(-180deg);
+        i{
+          font-size: 100px;
+        }
+      }
+    }
+  }
+}

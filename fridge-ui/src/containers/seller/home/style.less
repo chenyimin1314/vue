@@ -1,0 +1,70 @@
+.notice{
+  position: absolute;
+  height: 25%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right,#23BEFF,#2DC3FE,#31C6FF,#39C9FE,#75D7FA,#82DCFF);
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  z-index: -1;
+}
+.grids{
+  width: 90%;
+  margin:0 auto;
+  margin-top: 100px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background: #fff;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #E6F8FC;
+  .item{
+    width: 33.33%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    a{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .icon{
+        width: 50%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        background: #49D398;
+        i{
+          font-size: 25px;
+          color: #fff;
+        }
+      }
+     span{
+        width: 60%;
+        padding: 5px 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+  }
+  .item:nth-child(2) .icon{
+    background: #FC6E9C;
+  }
+  .item:nth-child(3) .icon{
+    background: #3AEBFF;
+  }
+  .item:nth-child(4) .icon{
+    background: #FCC56A;
+  }
+}

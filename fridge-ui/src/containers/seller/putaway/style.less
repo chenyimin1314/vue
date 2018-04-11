@@ -1,0 +1,85 @@
+.putaway-wrap{
+  width: 100%;
+  height: 100%;
+  .notice{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    background: linear-gradient(to right,#23BEFF,#2DC3FE,#31C6FF,#39C9FE,#75D7FA,#82DCFF);
+    z-index: -1;
+    .cell-info{
+      height: 90px;
+      position: absolute;
+      width: 90%;
+      bottom: -30px;
+      left: 5%;
+      top:80%;
+      padding: 2px;
+      background: #fff;
+      box-sizing: border-box;
+      border:1px solid #E1F4F8;
+      box-shadow: 5px 5px 30px #E1F4F8;
+      border-radius: 5px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
+      font-size: 14px;
+      .info{
+        width: 33.33%;
+        height:100%;
+        display:flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 5px 0;
+        p{
+          width: 100%;
+          text-align: center;
+          color: #BBBFC2;
+          padding: 1px 0;
+        }
+        div{
+          display: inline-block;
+          text-align: center;
+          font-size: 18px;
+          width: 100%;
+          span{
+            font-size: 12px;
+            padding: 0 2px;
+          }
+          span:nth-child(1){
+            color: red;
+          }
+          span:nth-child(2){
+            color: #9D3232;
+          }
+        }
+        .has-cell{
+          color: #67D99E;
+        }
+        .null-cell{
+         position: absolute;
+         bottom: 0;
+         font-size: 12px;
+        }
+        .use-cell{
+          color:#48C5F5;
+        }
+      }
+    }
+  }
+  .form-group{
+   height: 40%;
+   margin-top: 90px;
+  }
+  .next-step{
+    width: 35%;
+    text-align: center;
+    margin: 5% auto;
+    height: 38px;
+  }
+}

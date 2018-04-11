@@ -1,0 +1,122 @@
+.goods-modal{
+  width: 100%;
+  height: 100%;
+  transition: .5s;
+  .shade{
+     width: 100%;
+     height: 100%;
+     background: #F3EBE7;
+     opacity: .6;
+  }
+  .content{
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    height: 40%;
+    bottom: 30%;
+    background: #fff;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    .close-modal{
+      position: absolute;
+      top: -22px;
+      right: 45%;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 30px;
+      background: #fff;
+      color: #F84481;
+      i{
+        font-size:22px;
+      }
+    }
+    .goods-info{
+      display: flex;
+      width: 90%;
+      height: 90%;
+      justify-content:center;
+      align-items: center;
+      flex-wrap: wrap;
+      border:2px dashed #F9699A;
+      border-radius: 10px;
+      .line{
+        width: 90%;
+        height: 20px;
+        margin: 5px 0;
+        color: #F84481;
+        text-align: center;
+        position: relative;
+        span{
+          display: block;
+          width: 45%;
+          height: 100%;
+          margin: 0 auto;
+          background: #fff;
+          text-align: center;
+        }
+        hr{
+          z-index: -1;
+          width: 100%;
+          top: 16%;
+          position: absolute;
+          border:.5px solid red ;
+        }
+      }
+      .goods-title{
+        width: 50%;
+        box-sizing: border-box;
+        padding-left:10px;
+        margin: 20px 0;
+        p{
+          color: #868080;
+          padding: 3px 2px ;
+          span{
+            padding-left:10px;
+          }
+        }
+        .goods-price{
+          span{
+            color: #F84481;
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+      }
+      .imgbox{
+        width:50%;
+        text-align: center;
+        img{
+          width: 110px;
+          height: 110px;
+        }
+      }
+      .buy-button{
+        width: 28%;
+        height: 26px;
+        margin-bottom: 4px;
+        line-height: 28px;
+        background: linear-gradient(to right,#FB6D9B, #FF6096,#FB7BAE,#FC80B6);
+        color: #fff;
+        border-radius: 10px;
+        outline: none;
+      }
+      .buy-button:hover{
+        opacity: .9;
+      }
+    }
+  }
+  @media screen and (max-width:320px){
+    .content{
+      height: 45%;
+    }
+    .buy-button{
+      margin-top:-10px;
+    }
+  }
+}

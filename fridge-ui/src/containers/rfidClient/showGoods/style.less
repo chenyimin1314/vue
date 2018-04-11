@@ -1,0 +1,99 @@
+.seller-wrapper{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
+  .title{
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 16px;
+    color: #464444;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+  }
+  .goods{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom:50px;
+    .goods-items{
+      width: 33.33%;
+      height: 125px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin: 5px 0;
+      position: relative;
+      .goods-item{
+        width: 100px;
+        height: 115px;
+        padding: 5px;
+        display: flex;
+        justify-content:center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 10px #D9D7D7;
+        .goods-img{
+          width: 100%;
+          height: 90%;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .goods-info{
+          width: 100%;
+          .goods-name{
+            padding: 2px 5px;
+          }
+          .goods-price{
+            padding: 2px 5px;
+            color: red;
+          }
+        }
+        .shadow{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: #CFCCCC;
+          top: 0;
+          left: 0;
+          opacity: .4;
+          border:1px solid #FBCC45;
+        }
+        .sign{
+          position: absolute;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background: #FBCC45;
+          top: -6px;
+          right: -6px;
+        }
+      }
+    }
+  }
+  .sure-btn{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    line-height: 35px;
+    span{
+      display: block;
+      width: 100px;
+      background: linear-gradient(to right,#23BEFF,#2DC3FE,#31C6FF,#39C9FE,#75D7FA,#82DCFF);
+      margin: 0 auto;
+      color: #fff;
+      border-radius: 5px;
+    }
+  }
+}
