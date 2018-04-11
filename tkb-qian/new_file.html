@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<body>
+		<script>
+			var a='weixin.qq.com/advanced/selfmenu?action=index&t=advanced/menu-setting&token=2057939975&lang=zh_CN'
+		    var b=a.split('?')[1]
+		      console.log(b,1111111)
+		     var  c=b.split('&')
+		      console.log(c,22222)
+		         var args = new Object();
+		      for(var i = 0; i < c.length; i++) {
+		        var pos = c[i].indexOf('='); //查找name=value
+		        if(pos == -1) continue; //如果没有找到就跳过
+		        var argname = c[i].substring(0, pos); //提取name
+		        console.log(argname)
+		        var value = c[i].substring(pos + 1); //提取value
+		        console.log(value)
+		        args[argname] = unescape(value); //存为属性
+		        console.log( args[argname] = unescape(value))
+		     }
+		</script>
+	</body>
+</html>
