@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+      var arr=[
+    {id:1,pId:0,name:"A"},
+    {id:11,pId:1,name:"A1"},
+    {id:12,pId:1,name:"A2"},
+    {id:13,pId:1,name:"A3"},
+    {id:2,pId:0,name:"B"},
+    {id:21,pId:2,name:"B1"},
+    {id:22,pId:2,name:"B2"},
+    {id:23,pId:2,name:"B3"},
+    {id:3,pId:0,name:"C"},
+    {id:31,pId:3,name:"C1"},
+    {id:32,pId:3,name:"C2"},
+    {id:33,pId:3,name:"C3"},
+    {id:34,pId:23,name:"C23"},
+    {id:35,pId:33,name:"C33"},
+    {id:36,pId:31,name:"C31"},
+    {id:37,pId:34,name:"C37"},
+    {id:38,pId:34,name:"C38"},
+    {id:39,pId:34,name:"C39"},
+    {id:40,pId:39,name:"C39"},
+    {id:41,pId:39,name:"C39"},
+
+];
+
+   var narr=arr;
+   var newArr=[]
+
+    arr.forEach(element=>{
+      element.children=[]
+       narr.forEach(item=>{
+            if(element.id==item.pId){
+              element.children.push(item)
+            }
+       })
+
+    })
+    
+    var arr1=arr.filter(el=>{
+      return el.pId==0
+    })
+    console.log(arr1)
+
+  </script>
+</html>
